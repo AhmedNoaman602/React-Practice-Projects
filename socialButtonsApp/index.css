@@ -1,0 +1,56 @@
+* {
+  box-sizing: 0px;
+}
+
+body {
+  margin: 0px;
+}
+
+.card-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-image: url("https://assets.ccbp.in/frontend/react-js/social-buttons-bg.png");
+  background-size: cover;
+  min-height: 100vh;
+}
+.heading {
+  color: #ffffff;
+  font-size: 50px;
+  font-family: "Bree Serif";
+}
+.button-div {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.btn {
+  margin: 10px;
+  border: 0px;
+  border-radius: 12px;
+  width: 90px;
+  height: 30px;
+}
+.btn1 {
+  color: #ffffff;
+  background-color: #eab308;
+}
+.btn2 {
+  color: #000000;
+  background-color: #ffffff;
+}
+.btn3 {
+  color: #ffffff;
+  background-color: #1d4ed8;
+}
+@media screen and (max-width: 768px) {
+  .heading {
+    font-size: 30px;
+  }
+  .button-div {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+  }
+}
