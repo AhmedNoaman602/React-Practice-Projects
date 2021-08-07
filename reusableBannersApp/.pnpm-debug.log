@@ -1,0 +1,35 @@
+{
+  "0 debug pnpm:scope": {
+    "selected": 1
+  },
+  "1 info pnpm": {
+    "err": {
+      "name": "Error",
+      "message": "Command failed with ENOENT: istall\nspawn istall ENOENT",
+      "code": "ENOENT",
+      "stack": "Error: Command failed with ENOENT: istall\nspawn istall ENOENT\n    at Process.ChildProcess._handle.onexit (internal/child_process.js:267:19)\n    at onErrorNT (internal/child_process.js:469:16)\n    at processTicksAndRejections (internal/process/task_queues.js:84:21)"
+    }
+  },
+  "2 error pnpm": {
+    "errno": "ENOENT",
+    "code": "ERR_PNPM_RECURSIVE_EXEC_FIRST_FAIL",
+    "syscall": "spawn istall",
+    "path": "istall",
+    "spawnargs": [],
+    "originalMessage": "spawn istall ENOENT",
+    "shortMessage": "Command failed with ENOENT: istall\nspawn istall ENOENT",
+    "command": "istall",
+    "escapedCommand": "istall",
+    "failed": true,
+    "timedOut": false,
+    "isCanceled": false,
+    "killed": false,
+    "prefix": "/home/workspace/reactjs/coding-practices/reusableBannersApp",
+    "err": {
+      "name": "Error",
+      "message": "Command failed with ENOENT: istall\nspawn istall ENOENT",
+      "code": "ERR_PNPM_RECURSIVE_EXEC_FIRST_FAIL",
+      "stack": "Error: Command failed with ENOENT: istall\nspawn istall ENOENT\n    at Process.ChildProcess._handle.onexit (internal/child_process.js:267:19)\n    at onErrorNT (internal/child_process.js:469:16)\n    at processTicksAndRejections (internal/process/task_queues.js:84:21)"
+    }
+  }
+}
