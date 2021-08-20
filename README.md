@@ -1,6 +1,6 @@
 # React-Practise-Projects
 
-React projects for daily practice, I made this by challenging myself for creating multi projects on daily bases. 
+React projects for daily practice, I made this by challenging myself for creating multiple projects on daily bases. 
 I found it really helped to bring out thorough understanding on react js
 
 > ### _Things to Keep in Mind_
